@@ -18,4 +18,9 @@
 # 20
 
 p "Enter a number:"
+num = gets.chomp.to_i
+for i in 1..10
+  p num * i
+end
 
+  
